@@ -1,0 +1,75 @@
+/* navbar */
+.nav-all{
+    background-color: white !important;
+  }
+  
+  .nav-element-left {
+    justify-content: end;
+  }
+  
+  .nav-right {
+    color: black !important;
+    font-size: 1.2rem;
+    border-radius: 7px;
+  }
+  
+  /* section top */
+  .sec-top{
+      width: 100%;
+  }
+  
+  .sec-top img{
+      width: 100%;
+  }
+  
+    
+    /* login area */
+    .sec-1 {
+      height: 90vh;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      background-color: rgb(45, 196, 255);
+    }
+    
+    #login-area {
+      width: 30%;
+      margin-bottom: 3.5em;
+    }
+    
+    .submit-area {
+      margin: 2em 0em;
+    }
+    
+    .dont-have {
+      font-weight: bold;
+      font-size: 13px;
+    }
+    
+    p {
+      margin-top: 0.5em;
+    }
+    
+    p a {
+      text-decoration: none;
+    }
+    
+    p a:hover {
+      cursor: pointer;
+    }
+  
+    .box{
+      border: 1px solid gray;
+      margin: .5em 0em;
+      width: 100%;
+      background-color: white;
+    }
+
+    .button{
+        background-color: dodgerblue;
+        color: black;
+    }
+
+    .create{
+        color: darkblue;
+    }

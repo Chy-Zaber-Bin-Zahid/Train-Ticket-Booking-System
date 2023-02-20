@@ -1,0 +1,83 @@
+html,
+body {
+  height: 100%;
+}
+
+/* navbar */
+.nav-all{
+  background-color: white !important;
+}
+
+.nav-element-left {
+  justify-content: end;
+}
+
+.nav-right {
+  color: black !important;
+  font-size: 1.2rem;
+  border-radius: 7px;
+}
+
+/* section one code */
+.sec-2 {
+  padding: 3em 0em 0em 0em;
+  background-image: url(images/homepage.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center center;
+  height: 100%;
+}
+
+/* section t2o right part */
+.ticket-select {
+  width: 20%;
+  justify-content: center;
+  margin: auto;
+}
+
+.form {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  text-align: center;
+}
+
+.form h5 {
+  color: black;
+  margin: 0;
+  padding: .3em 0em;
+  background-color: white;
+}
+
+.form input {
+  width: 100%;
+  background-color: gray;
+  text-align: center;
+  padding: .4em 0em;
+}
+
+.passenger {
+  font-size: 1.25rem;
+  color: white;
+  margin-right: 0.5em;
+}
+
+.sel {
+  border-radius: none;
+  width: 100%;
+  background-color: gray;
+  text-align: center;
+  padding: .4em 0em;
+}
+
+.sel:hover {
+  cursor: pointer;
+}
+
+#submit{
+  width: 20%;
+  background-color: dodgerblue;
+  color: black;
+}

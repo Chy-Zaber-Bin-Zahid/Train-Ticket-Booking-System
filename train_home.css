@@ -1,0 +1,41 @@
+html,
+body {
+  height: 100%;
+}
+
+/* navbar */
+.nav-all {
+  background-color: white !important;
+}
+
+.nav-element-left {
+  justify-content: end;
+}
+
+.nav-right {
+  color: black !important;
+  font-size: 1.2rem;
+  border-radius: 7px;
+}
+
+/* section top */
+
+.sec-top {
+  background-image: url(images/homepage.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center center;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.home_info {
+  font-size: 2rem;
+  width: 90%;
+  margin: auto;
+  padding: 1em 1em;
+  margin-top: 1em;
+}

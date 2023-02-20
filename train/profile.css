@@ -1,0 +1,61 @@
+html,
+body {
+  height: 100%;
+}
+
+/* nav code */
+.nav-all{
+  background-color: white !important;
+}
+
+.nav-element-left {
+  justify-content: end;
+}
+
+.nav-right {
+  color: black !important;
+  font-size: 1.2rem;
+  border-radius: 7px;
+}
+
+/* section one code */
+.sec-1 {
+  text-align: center;
+  background-image: url(images/homepage.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center center;
+  height: 100%;
+  border: 1px solid white;
+}
+
+.box{
+    display: flex;
+    width: 50%;
+    margin: auto;
+    background-color: white;
+}
+
+.box-left{
+    width: 50%;
+
+}
+
+.box-left h5{
+    margin: 0;
+    padding: .5em;
+    border: .5px solid black;
+    font-weight: bolder;
+}
+
+.box-right{
+    width: 50%;
+}
+
+.box-right h5{
+    margin: 0;
+    padding: .5em;
+    border: .5px solid black;
+}
+
